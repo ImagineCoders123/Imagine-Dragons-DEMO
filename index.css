@@ -1,0 +1,35 @@
+/imagine-dragons-site
+  ├── index.html  (Home Page)
+  ├── about.html  (About Page)
+  ├── discography.html  (Discography Page)
+  ├── songs.html  (All Songs Page)
+  ├── albums/
+  │   ├── album1.html  (Page for an individual album)
+  │   ├── album2.html  (Another album page)
+  ├── css/
+  │   ├── styles.css  (Main styles)
+  ├── js/
+  │   ├── script.js  (JavaScript for interactions)
+  ├── images/ (For album covers, band images, etc.)
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #1db954;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.songTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: cyan;
+}
+
